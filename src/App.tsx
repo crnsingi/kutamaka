@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -14,12 +15,9 @@ const App: React.FC = () => {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/add-product" component ={AddProduct} />
-        
-
       </Switch>
-
     </Router>
-  )
+  );
+};
 
-}
 export default App
