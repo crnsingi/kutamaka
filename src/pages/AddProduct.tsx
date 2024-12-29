@@ -4,6 +4,8 @@ import { Product } from '../types';
 
 const AddProduct: React.FC = () => {
     const handleAddProduct = (product: Product) => { 
+        // add product to backend
+        console.log('Product added', product)
         
     }
 
