@@ -3,5 +3,7 @@ import AddProductForm from "../components/AddProductForm";
 import { Product } from '../types';
 
 const AddProduct: React.FC = () => {
-    
+
 }
+
+export default AddProduct;
