@@ -7,5 +7,10 @@ interface ProductListProps {
 }
 
 const ProductList: React.FC<ProductListProps> = ({ products }) => { 
-    
+    return (
+        <div>
+            
+        </div>
+    )
+
 }
