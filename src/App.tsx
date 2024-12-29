@@ -1,20 +1,21 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import './App.css'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import AddProduct from './pages/AddProduct'
+// src/App.tsx
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import AddProduct from './pages/AddProduct';
 
-const App: React.FC = () => { 
-  return ( 
+const App: React.FC = () => {
+  return (
     <Router>
-      <Navbar/>
+      <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/add-product" component ={AddProduct} />
+        <Route path="/add-product" component={AddProduct} />
       </Switch>
     </Router>
   );
 };
 
-export default App
+export default App;
+
