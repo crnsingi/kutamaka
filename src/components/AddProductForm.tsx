@@ -9,3 +9,7 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
  const [name, setName] = useState('');
  const [description, setDescription] = useState('');
  const [price, setPrice] = useState('');
+
+ const handleSubmit = (e: React.FormEvent) => { 
+    
+ }
