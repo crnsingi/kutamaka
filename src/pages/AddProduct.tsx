@@ -11,6 +11,7 @@ const AddProduct: React.FC = () => {
     return ( 
         <div>
             <h1>Add Product</h1>
+            <AddProductForm onAddProduct={handleAddProduct} />
         </div>
     )
 
