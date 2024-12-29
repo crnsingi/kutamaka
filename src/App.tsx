@@ -1,11 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Route, Router } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import { Switch } from 'react-router-dom'
 import AddProduct from './pages/AddProduct'
 
 const App: React.FC = () => { 
