@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
                 <li><Link to="/add-product">Add Product</Link></li>
             </ul>
         </nav>
-
     )
+};
 
-}
+export default Navbar;
