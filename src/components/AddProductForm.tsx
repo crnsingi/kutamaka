@@ -12,5 +12,8 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
 
  const handleSubmit = (e: React.FormEvent) => { 
     e.preventDefault();
+    const newProduct: Product = { 
+        
+    }
 
  }
