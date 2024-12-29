@@ -26,3 +26,5 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
 
     </form>
  )
+
+ export default AddProductFrom;
