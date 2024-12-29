@@ -5,6 +5,7 @@ import './App.css'
 import { Route, Router } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import { Switch } from 'react-router-dom'
+import AddProduct from './pages/AddProduct'
 
 const App: React.FC = () => { 
   return ( 
@@ -12,6 +13,8 @@ const App: React.FC = () => {
       <Navbar/>
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/add-product" component ={AddProduct} />
+        
 
       </Switch>
 
