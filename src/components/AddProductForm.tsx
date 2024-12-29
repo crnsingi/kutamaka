@@ -16,6 +16,7 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
         id: Date.now().toString(),
         name,
         description,
+        price: Number(price),
 
     }
 
