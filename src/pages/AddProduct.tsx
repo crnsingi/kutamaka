@@ -6,8 +6,13 @@ const AddProduct: React.FC = () => {
     const handleAddProduct = (product: Product) => { 
         // add product to backend
         console.log('Product added', product)
-        
-    }
+    };
+
+    return ( 
+        <div>
+            <h1>Add Product</h1>
+        </div>
+    )
 
 }
 
