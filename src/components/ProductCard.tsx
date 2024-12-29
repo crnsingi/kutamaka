@@ -12,7 +12,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             <p>{product.description}</p>
             <p>${product.price}</p>
         </div>
+    );
+};
 
-    )
-
-}
+export default ProductCard;
