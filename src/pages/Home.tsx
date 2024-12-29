@@ -12,10 +12,8 @@ const Home: React.FC = () => {
         <div>
             <h1>Product List</h1>
             <ProductList products={products} />
-
         </div>
-
-    )
-}
+    );
+};
 
 export default Home;
