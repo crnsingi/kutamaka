@@ -6,8 +6,8 @@ const Navbar: React.FC = () => {
         <nav>
             <h1>Marketplace</h1>
             <ul>
-                <li><Link></Link></li>
-                <li><Link></Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/add-product">Add Product</Link></li>
             </ul>
         </nav>
 
