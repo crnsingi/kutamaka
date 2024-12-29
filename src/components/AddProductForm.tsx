@@ -20,3 +20,9 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
     };
     onAddProduct(newProduct);
  };
+
+ return (
+    <form>
+        
+    </form>
+ )
