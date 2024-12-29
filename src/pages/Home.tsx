@@ -4,7 +4,9 @@ import { Product } from '../types';
 
 const Home: React.FC = () => {
     const [products, setProducts] = useState<Product[]>([
-        
+        {id: '1', name: 'Product 1', description: 'Description of Product 1', price: 100},
+
+
     ])
 
 }
