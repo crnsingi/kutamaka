@@ -8,6 +8,12 @@ const Home: React.FC = () => {
         {id: '2', name: 'Product 2', description: 'Description of Product 1', price: 200},
     ]);
 
+    return (
+        <div>
+            
+        </div>
+
+    )
 }
 
 export default Home;
