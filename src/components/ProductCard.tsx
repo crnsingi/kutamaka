@@ -7,7 +7,10 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     return (
-        
+        <div>
+            <h2>{product.name}</h2>
+        </div>
+
     )
 
 }
