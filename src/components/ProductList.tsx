@@ -11,10 +11,9 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
         <div>
             {products.map(product => (
                 <ProductCard key={product.id} product={product} />
-
             ))}
-
         </div>
-    )
+    );
+};
 
-}
+export default ProductList;
