@@ -22,7 +22,7 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
  };
 
  return (
-    <form>
-        
+    <form onSubmit={handleSubmit}>
+
     </form>
  )
