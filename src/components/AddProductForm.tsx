@@ -33,6 +33,7 @@ const AddProductForm: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
         </div>
         <div>
             <label>Price:</label>
+            <input type="number" value={price} onChange={e => setPrice(e.target.value)} required />
 
         </div>
 
