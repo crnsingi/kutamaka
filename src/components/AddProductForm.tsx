@@ -30,9 +30,9 @@ const AddProductForm: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
         <div>
             <label>Description:</label>
             <textarea value={description} onChange={e => setDescription(e.target.value)} required />
-
         </div>
         <div>
+            <label>Price:</label>
 
         </div>
 
