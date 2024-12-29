@@ -17,7 +17,6 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
         name,
         description,
         price: Number(price),
-
-    }
-
- }
+    };
+    onAddProduct(newProduct);
+ };
