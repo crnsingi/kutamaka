@@ -5,7 +5,7 @@ interface AddProductFormProps {
     onAddProduct: (product: Product) => void;
 }
 
-const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
+const AddProductForm: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
  const [name, setName] = useState('');
  const [description, setDescription] = useState('');
  const [price, setPrice] = useState('');
@@ -23,8 +23,12 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
 
  return (
     <form onSubmit={handleSubmit}>
+        <div>
+            <label>Name:</label>
+
+        </div>
 
     </form>
  )
 
- export default AddProductFrom;
+ export default AddProductForm;
