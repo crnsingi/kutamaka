@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
 import AddProduct from './pages/AddProduct'
 
 const App: React.FC = () => { 
