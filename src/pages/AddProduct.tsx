@@ -3,6 +3,9 @@ import AddProductForm from "../components/AddProductForm";
 import { Product } from '../types';
 
 const AddProduct: React.FC = () => {
+    const handleAddProduct = (product: Product) => { 
+        
+    }
 
 }
 
