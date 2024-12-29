@@ -11,5 +11,6 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
  const [price, setPrice] = useState('');
 
  const handleSubmit = (e: React.FormEvent) => { 
-    
+    e.preventDefault();
+
  }
