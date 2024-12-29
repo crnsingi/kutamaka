@@ -14,6 +14,8 @@ const AddProductFrom: React.FC<AddProductFormProps> = ({ onAddProduct}) =>
     e.preventDefault();
     const newProduct: Product = { 
         id: Date.now().toString(),
+        name,
+        description,
 
     }
 
