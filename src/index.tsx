@@ -7,7 +7,5 @@ const sayGreeting = () : void => {
         let greeting: HTMLElement = document.createElement("p");
         greeting.innerText = "I 'm using Typescript";
         document.getElementById('info')?.appendChild(greeting);
-
-    })
-
+    },3000)
 }
