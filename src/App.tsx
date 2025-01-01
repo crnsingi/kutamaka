@@ -7,5 +7,10 @@ function MyButton({ title }: { title: string }) {
 }
 
 export default function MyApp() {
-    
+    return ( 
+        <div>
+            
+        </div>
+    )
+
 }
