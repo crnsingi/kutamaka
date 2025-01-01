@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const sayGreeting = () : void => { 
     setTimeout(function() {
-        
+        let greeting: HTMLElement = document.createElement("p");
+
     })
 
 }
