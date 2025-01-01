@@ -3,5 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const sayGreeting = () : void => { 
-    
+    setTimeout(function() {
+        
+    })
+
 }
